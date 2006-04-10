@@ -1,0 +1,398 @@
+    v\:* {
+      behavior:url(#default#VML);
+    }
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+*{	
+	outline: none;
+}
+@font-face {
+    font-family: 'Handwriting';
+    src: url('fonts/jellyka_estrya_handwriting-webfont.eot');
+    src: url('fonts/jellyka_estrya_handwriting-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/jellyka_estrya_handwriting-webfont.woff') format('woff'),
+         url('fonts/jellyka_estrya_handwriting-webfont.ttf') format('truetype'),
+         url('fonts/jellyka_estrya_handwriting-webfont.svg#JellykaEstryasHandwritingRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TBOv3font";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://braintemp.sdsc.edu/fonts/metanormal-roman-webfont.eot");
+}
+@font-face {
+    font-family: "TBOv3font";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//:") format("no404"), url("http://thebrainobservatory.ucsd.edu/fonts/metanormal-roman-webfont.woff") format("woff"), url("http://thebrainobservatory.ucsd.edu/fonts/metanormal-roman-webfont.ttf") format("truetype"), url("http://thebrainobservatory.ucsd.edu/fonts/metanormal-roman-webfont.svg#webfontS5nVh4LU") format("svg");
+}
+.scaleBar {
+  position: absolute;
+}
+@charset "utf-8";
+/* CSS Document */
+/* instruction */
+.instructions{
+	width: 430px;
+	margin-right: 20px;
+	float: left;	
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 13px;
+    color: #565656;	
+	  margin-top: 13px;
+}
+.instructions a{
+    color: #1A1A42;	
+	text-decoration: none;
+}
+.wrapper{
+	border-top: solid 1px #777777;
+ margin-top: 31px;
+ height: 362px;
+}
+/* end instructions */
+/* form's styles */
+  .clientInfo{
+	       padding-bottom: 10px;
+		   font-family: Arial, Helvetica, sans-serif;
+		   width: 509px;
+		   float: left;
+ 	 	   margin: 16px 0 0;		   
+	   }
+	   .clientInfo span.label{
+		 color: #565656;
+		display: inline-block;
+		font-size: 13px;
+		margin-right: 7px;
+		text-align: left;
+		width: 133px;
+		vertical-align: top;
+	   }
+	   .clientInfo .whereAreYouFrom{
+		   margin-bottom: 8px;
+	   }
+	   .clientInfo .legend{
+	 	 color: #979797;
+		 font-size: 13px;
+	     padding: 1px 0 1px 5px;
+	   }
+	   .clientInfo  div{
+		  margin-bottom: 3px;
+	   }   
+	   .clientInfo input,
+	   .clientInfo select{
+  		  width: 361px;
+		  border: none;
+		  background: none;
+		  border-bottom: dotted 1px #dddddd;
+		  font-size: 13px;
+		  color: #2c2c2c;
+		  font-family: Arial, Helvetica, sans-serif;
+	   }	
+           .clientInfo .required{
+				color: #8C8C8C;
+				font-size: 13px;
+				margin-left: 10px;
+           }
+           .clientInfo .info{
+				font-size: 13px;
+				margin-left: 300px;
+			    color: #8c8c8c;
+                  
+           }	
+		   .clientInfo textarea{
+			border: 1px solid #DDDDDD;
+			height: 77px;
+			resize: none;
+			width: 359px;	
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 13px;	
+		   }
+.clientInfo .send button{
+ background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #1A1A42;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: 35px;
+    padding: 0;
+    width: 200px;
+}
+ .txtShadow{
+	 text-shadow: #6374AB 1px 1px 1px;
+	 margin: 0;
+	 font-size: 30px;
+ }
+.clientInfo .send{
+
+}	
+/* end form's styles */
+
+/* content structure */
+#content{
+	width: 960px;
+	margin: 30px auto 0;
+}
+/* end content structure */
+
+.mainTitle{	
+	text-align: center;
+	margin-top: 27px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #8C8C8C;
+	margin-bottom: 0;
+}
+.logo{
+	text-align: right;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+.reqAlertYears,
+.reqAlertAge,
+.reqAlertName{
+	font-size: 13px;
+	color: #ff0000;
+}
+.thankyou{
+    font-size: 13px;
+  	margin-left: 3px;
+	color: #565656;
+}
+
+/* NAVIGATION BAR */
+#navBarWrapper{
+	background: #1a1a42;
+	height: 19px;
+}
+#navBar{
+	width: 960px;
+	margin: 0 auto;
+}
+.the_brain_observatory{
+	float: left;
+	width: 271px;
+	margin-top: 2px;
+	border: none;
+}
+.the_brain_observatory img{
+	border: none;
+}
+.service_menu{
+	list-style: none;	
+	color: white;
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	margin: 0; 
+	text-decoration: none;
+}
+.service_menu li{
+	float: left;
+}
+.service_menu li.separator{
+	margin: 0 5px;
+}
+.service_menu li a{
+	color: white;
+	font-size: 12px;
+	font-family: 'TBOv3font','Arial Narrow';
+	text-decoration: none;
+}
+.service_menu li a:hover{
+	text-decoration: underline;
+}
+/* END NAVIGATION BAR */
+
+/* Brain gallery */
+#currDrawing_div{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;	
+	margin-bottom: 20px;
+}
+#thumbnails{
+    padding: 10px 10px 0 0;
+	overflow: auto;
+	height: 352px;
+}
+#thumbnails .thumb{
+	border: solid 1px #dddddd;	
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+#bg_content{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#bg_content h1{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0;	
+	color: #565656;
+	border-bottom: solid 1px #d6d6d6;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	
+}
+/* END Brain gallery */
+
+/* Sub menu */
+.subMenu{
+	height: 25px;
+	border-bottom: #777777 solid 1px;
+}
+.subMenu a,
+.subMenu span{
+	color: #565656;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 24px;
+	line-height: 24px;		
+	cursor: pointer;
+	display: inline-block;
+	border: #777777 solid 1px;
+	padding: 0 5px;
+	margin-left: 10px;
+}
+#sM_brains{
+	border-bottom: solid 1px white;
+}	
+.subMenu a.sM_draw{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+}
+.subMenu span:hover{
+
+}
+.subMenu .separator{
+	margin: 0 10px;	
+	float: right;
+	height: 20px;
+	line-height: 20px;		
+}
+.subMenu a:hover{
+	border-bottom: dotted 1px #565656;
+}
+#sM_contents{
+	 min-height: 349px;
+}
+.sM_about_content,
+.sM_credits_content{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #565656;
+	-moz-column-count: 2;
+	-moz-column-gap: 15px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 15px;
+	column-count: 2;
+	column-gap: 15px;	
+	display: none;
+}
+.sM_about_content a,
+.sM_credits_content a{
+	color: #1A1A42;
+	text-decoration: none;
+}
+.sM_about_content .sign{
+	text-align: right;
+}
+#name{
+	font-size: 13px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;	
+	margin-right: 280px;
+	color: #565656;	
+}
+#sM_about,
+#sM_credits{
+	border: solid 1px #dddddd;
+	border-bottom: solid 1px white;	
+	height: 23px;
+}
+/* END Sub menu */
+
+/* Manager */
+.imgsManager{
+	width: 960px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #565656;
+}
+.imgsManager a{
+	color: #1A1A42;
+}
+.imgsManager_header{
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+.imgsManager td{
+	border-bottom: solid 1px #f1f1f1;
+}
+.previewImg{
+	position: absolute;	
+}
+.previewImg{
+	border: solid 1px #DDDDDD;
+		
+}
+.sM_draw_p{
+	text-align: right;	
+	clear: both;
+}
+.sM_draw{
+	color: #1A1A42;
+	text-decoration: none;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.clear{
+   margin-left: 127px;
+    margin-top: -16px;
+    position: absolute;
+    text-align: right;
+}
+.clear a{
+	color: #1A1A42;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+}
+/* imgsManager */
+
+/* footer */
+#bd_footer{
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+ 	color: #565656;
+    font-family: Arial,Helvetica,sans-serif;	
+	font-size: 13px;
+	text-align: center;
+	margin-top: 20px;
+}
+#bd_footer img{
+	vertical-align: middle;
+}
+
+.image {
+      position: relative;
+      margin: 2px;
+      color: #aaaaaa;
+}
